@@ -5,7 +5,7 @@ import os
 import google.generativeai as genai
 
 # 1. CONFIGURACIÓN DE INTELIGENCIA ARTIFICIAL
-mi_clave = st.secrets["AQ.Ab8RN6LtwzokbcxlWn2CBlBpSj49Vt3TDXKZfotNfCnNPfuTUA"] 
+mi_clave = st.secrets["GEMINI_API_KEY"] 
 genai.configure(api_key=mi_clave)
 modelo_ia = genai.GenerativeModel('gemini-3.8-flash')
 
