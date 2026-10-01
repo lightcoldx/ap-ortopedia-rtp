@@ -93,6 +93,7 @@ if st.button("Evaluar Paciente y Consultar Literatura"):
         Redacta un párrafo de 3 a 4 líneas justificando con la literatura médica actual por qué este 
         tratamiento específico acelera o retrasa el Return to Play deportivo comparado con otras opciones. 
         Menciona el consenso general brevemente.
+        Obligatorio: Al final de tu justificación, agrega un salto de línea y escribe "Referencia sugerida:" seguido de la cita bibliográfica de un artículo real o guías de práctica clínica (mencionando autor principal, año y revista) que respalde lo que acabas de explicar.
         """
         
         respuesta_ia = modelo_ia.generate_content(instruccion)
